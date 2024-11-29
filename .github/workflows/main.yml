@@ -35,7 +35,7 @@ jobs:
             ${{ runner.os }}-gradle-
             
     - name: Chmod scripts
-      run: chmod +x ./gradlew && chmod +x ./build_termux_package
+      run: chmod +x ./gradlew 
       
     - name: Build
       run: ./gradlew assembleDebug
